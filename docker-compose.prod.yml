@@ -2,7 +2,6 @@ version: '3'
 
 services:
   server:
-    #build: ./server
     image: abecker37/wns-deploy-server
     command: sh -c "npm run build && npm run prod"
     expose:
